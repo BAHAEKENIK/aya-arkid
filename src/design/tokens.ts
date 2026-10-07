@@ -16,7 +16,7 @@ export const colors = {
 } as const;
 
 export const fonts = {
-  primary: '"IBM Plex Sans", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
+  primary: '"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif',
   mono: '"IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace',
 } as const;
 
