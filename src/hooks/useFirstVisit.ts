@@ -8,7 +8,7 @@ const KEY = "aya-portfolio-visited";
  * but does show again when the tab is closed and reopened.
  */
 export function useFirstVisit(): boolean {
-  const [isFirst, setIsFirst] = useState<boolean>(() => {
+  const [isFirst] = useState<boolean>(() => {
     if (typeof window === "undefined") return false;
     try {
       return !window.sessionStorage.getItem(KEY);
